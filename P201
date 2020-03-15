@@ -1,0 +1,8 @@
+w=eval(input("请输入要买的水果的重量:"))
+
+if w>=10:
+    p=3
+else:
+    p=3.5
+total=p*w
+print("总价为：",total)
