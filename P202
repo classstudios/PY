@@ -1,0 +1,7 @@
+d=eval(input("输入实际乘坐的公里数："))
+price=0
+if d<=3:
+    price=13
+else:
+    price=13+(d-3)*2+1
+print("车费：",price)
